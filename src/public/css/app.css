@@ -68,7 +68,9 @@
 
   .table td,
   .table th {
-    background-color: rgb(135, 235, 168) !important;
+
+    background-color: skyblue !important;
+
   }
 
   .table-bordered th,
@@ -119,7 +121,9 @@ body {
   line-height: 1.6;
   color: #212529;
   text-align: left;
-  background-color: rgb(135, 235, 185);
+
+  background-color: skyblue;
+
 }
 
 [tabindex="-1"]:focus {
@@ -223,6 +227,7 @@ a {
   color: #007bff;
   text-decoration: none;
   background-color: rgb(135, 235, 180);
+
   -webkit-text-decoration-skip: objects;
 }
 
@@ -520,7 +525,8 @@ small,
 mark,
 .mark {
   padding: 0.2em;
-  background-color: rgb(135, 235, 173);
+
+  background-color: skyblue;
 }
 
 .list-unstyled {
@@ -568,7 +574,8 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
   border: 1px solid #ddd;
   border-radius: 0.25rem;
   -webkit-transition: all 0.2s ease-in-out;
@@ -602,21 +609,24 @@ code {
   padding: 0.2rem 0.4rem;
   font-size: 90%;
   color: #bd4147;
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
   border-radius: 0.25rem;
 }
 
 a > code {
   padding: 0;
   color: inherit;
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 kbd {
   padding: 0.2rem 0.4rem;
   font-size: 90%;
   color: #fff;
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
   border-radius: 0.2rem;
 }
 
@@ -638,7 +648,8 @@ pre code {
   padding: 0;
   font-size: inherit;
   color: inherit;
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
   border-radius: 0;
 }
 
@@ -1663,7 +1674,8 @@ pre code {
   width: 100%;
   max-width: 100%;
   margin-bottom: 1rem;
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .table th,
@@ -1683,7 +1695,8 @@ pre code {
 }
 
 .table .table {
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .table-sm th,
@@ -1706,167 +1719,193 @@ pre code {
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .table-hover tbody tr:hover {
-  background-color:rgb(135, 235, 180);
+  background-color:skyblue;
+
 }
 
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .table-hover .table-primary:hover {
-  background-color: rgb(135, 235, 180);
+  background-color: skyblue;
 }
 
 .table-hover .table-primary:hover > td,
 .table-hover .table-primary:hover > th {
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .table-secondary,
 .table-secondary > th,
 .table-secondary > td {
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .table-hover .table-secondary:hover {
-  background-color: rgb(135, 235, 180);
+  background-color: skyblue;
 }
 
 .table-hover .table-secondary:hover > td,
 .table-hover .table-secondary:hover > th {
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .table-success,
 .table-success > th,
 .table-success > td {
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .table-hover .table-success:hover {
-  background-color: rgb(135, 235, 180);
+  background-color: skyblue;
 }
 
 .table-hover .table-success:hover > td,
 .table-hover .table-success:hover > th {
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .table-info,
 .table-info > th,
 .table-info > td {
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .table-hover .table-info:hover {
-  background-color: rgb(135, 235, 180);
+  background-color: skyblue;
 }
 
 .table-hover .table-info:hover > td,
 .table-hover .table-info:hover > th {
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .table-warning,
 .table-warning > th,
 .table-warning > td {
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .table-hover .table-warning:hover {
-  background-color: rgb(135, 235, 180);
+  background-color: skyblue;
 }
 
 .table-hover .table-warning:hover > td,
 .table-hover .table-warning:hover > th {
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .table-danger,
 .table-danger > th,
 .table-danger > td {
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .table-hover .table-danger:hover {
-  background-color: rgb(135, 235, 180);
+  background-color: skyblue;
 }
 
 .table-hover .table-danger:hover > td,
 .table-hover .table-danger:hover > th {
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .table-light,
 .table-light > th,
 .table-light > td {
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .table-hover .table-light:hover {
-  background-color: rgb(135, 235, 180);
+  background-color: skyblue;
+
 }
 
 .table-hover .table-light:hover > td,
 .table-hover .table-light:hover > th {
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .table-dark,
 .table-dark > th,
 .table-dark > td {
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .table-hover .table-dark:hover {
-  background-color: rgb(135, 235, 180);
+  background-color: skyblue;
 }
 
 .table-hover .table-dark:hover > td,
 .table-hover .table-dark:hover > th {
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .table-active,
 .table-active > th,
 .table-active > td {
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .table-hover .table-active:hover {
-  background-color: rgb(135, 235, 180);
+  background-color: skyblue;
 }
 
 .table-hover .table-active:hover > td,
 .table-hover .table-active:hover > th {
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .thead-inverse th {
   color: #fdfdfd;
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .thead-default th {
   color: #495057;
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .table-inverse {
   color: #fdfdfd;
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .table-inverse th,
 .table-inverse td,
 .table-inverse thead th {
-  border-color: rgb(135, 235, 180);
+
+  border-color: skyblue;
+
 }
 
 .table-inverse.table-bordered {
@@ -1874,11 +1913,12 @@ pre code {
 }
 
 .table-inverse.table-striped tbody tr:nth-of-type(odd) {
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
 }
 
 .table-inverse.table-hover tbody tr:hover {
-  background-color: rgb(135, 235, 180);
+  background-color: skyblue;
 }
 
 @media (max-width: 991px) {
@@ -1901,7 +1941,9 @@ pre code {
   font-size: 0.9rem;
   line-height: 1.25;
   color: #495057;
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
+
   background-image: none;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -1913,13 +1955,15 @@ pre code {
 }
 
 .form-control::-ms-expand {
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
   border: 0;
 }
 
 .form-control:focus {
   color: #495057;
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
   border-color: #80bdff;
   outline: none;
 }
@@ -1946,7 +1990,8 @@ pre code {
 
 .form-control:disabled,
 .form-control[readonly] {
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
   opacity: 1;
 }
 
@@ -1956,7 +2001,9 @@ select.form-control:not([size]):not([multiple]) {
 
 select.form-control:focus::-ms-value {
   color: #495057;
-  background-color: rgb(135, 235, 180);
+
+  background-color: skyblue;
+
 }
 
 .form-control-file,
