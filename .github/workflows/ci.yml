@@ -1,0 +1,32 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '7.0'
+
+    - name: Cache Composer
+      uses: actions/cache@v2
+      with:
+        path: ~/.composer/cache
+        key: composer-${{ runner.os }}-${{ hashFiles('**/composer.json') }}
+        restore-keys: composer-${{ runner.os }}-
+
+    - name: Install PHP dependencies
+      run: composer install
+
+    - name: Run tests
+      run: vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover
