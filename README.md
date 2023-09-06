@@ -10,9 +10,25 @@
 
 ## What is it?
 
-TDD Dashboard, is an app (built as a Laravel PHP package) to watch and run all your tests during development. It supports any test framework working on terminal, and comes with some testers (PHPUnit, phpspec, behat, Jest, AVA...) preconfigured, but you can easily add yours, just tell it where the executable is and it's done. It also shows the progress of your tests, let you run a single test or all of them, and open your favorite code editor (PHPStorm, VSCode, Sublime Text, etc.) going right to the failing line of your test. If your test framework generate screenshots, it is also able to show it in the log page, with all the reds and greens you are used to see in your terminal.
+The TDD Dashboard is a versatile application designed as a Laravel PHP package, specifically tailored to facilitate Test-Driven Development (TDD) workflows. It serves as a comprehensive tool for developers to manage and monitor their tests while actively coding. It comprises of several features and functionality such as 
 
-It uses Laravel as motor, but supports (and has been tested with) many languages, frameworks and testing frameworks:
+1. Test Framework Compatibility 
+The TDD Dashboard is engineered to be test framework agnostic. Accommodating a wide range of test frameworks that operate in a terminal environment. This flexibility allows developers to seamlessly integrate their preferred testing tools into their workflow.
+
+2. Out-Of-The-Box-Testers
+The dashboard comes preconfigured with several popular testing frameworks, including PHPUnit, phpspec, behat, Jest, and AVA. This preconfiguration simplifies the setup process for commonly used testing environments.
+
+3. Custom Test Integration
+Developers can easily incorporate their own testing tools by providing the path to the executable. This means that regardless of your project's specific testing requirements, you can configure the dashboard to support them effortlessly.
+
+4. Progress Monitoring
+The TDD Dashboard offers a visual representation of test progress, making it easy to track the status of your tests. This visual feedback enables developers to identify failing tests quickly and monitor overall test suite execution.
+
+5. Screenshot Display
+If your chosen test framework generates screenshots during testing, the TDD Dashboard has the capability to display these images within the log page. This visual representation retains the familiar red and green indicators that developers are accustomed to seeing in their terminal output.
+
+In conclusion, the TDD Dashboard is a feature-rich application that enables developers to quickly adopt a strong TDD methodology. It supports a wide range of test frameworks, assures smooth code editor integration, and offers crystal-clear visual feedback on test progress. Additionally, its adaptability to the particular requirements of your project is made possible by its flexibility in integrating custom test tools, thus boosting your capacity to develop trustworthy and maintainable code while adhering to the TDD technique.
+
 
 * [PHPUnit](https://phpunit.de/)
 * [Laravel & Laravel Dusk](https://laravel.com/docs/5.5/dusk)
@@ -96,7 +112,21 @@ This package was tested and is known to be compatible with
 * [atoum](https://github.com/atoum/atoum)
 * [Nette Tester](http://tester.nette.org/en/)
 
+
+## Requirements
+
+- Laravel 4.1+ or 5
+- PHP 5.3.7+
+
 ## Installing
+#### Manually
+Install php version first
+php version 7.1.0 : https://prototype.php.net/versions/7.1.0/
+Install Composer next 
+composer 2.6.2 : https://www.javatpoint.com/how-to-install-composer-on-windows#:~:text=Updating%20and%20Uninstalling%20Composer&text=From%20there%2C%20you%20can%20verify,ready%20for%20the%20next%20steps.
+Install Laravel next
+laravel V4.2 : https://laravel.com/docs/4.2
+ 
 
 #### TL;DR
 
@@ -184,11 +214,6 @@ php artisan vendor:publish --provider="PragmaRX\Tddd\Package\ServiceProvider"
 #### Tests are running fine in terminal but failing in the dashboard? 
 
 You have first to remember they are being executed in isolation, and, also, the environment is not exactly the same, so things like a cache and session may affect your results. 
-
-## Requirements
-
-- Laravel 4.1+ or 5
-- PHP 5.3.7+
 
 ## Author
 
